@@ -16,7 +16,7 @@ body {
 input {
     background: #555555;
     width: 80%;
-    height: 50px;
+    height: 15%;
     border: #ffffff 1px solid;
     border-radius: 15px;
     font-size: 20px;
@@ -35,7 +35,7 @@ input:focus {
 button {
     background: #555555;
     width: 60%;
-    height: 60px;
+    height: 20%;
     border: #ffffff 1px solid;
     border-radius: 15px;
     font-size: 20px;
@@ -60,13 +60,16 @@ button:hover {
     background: #333333;
     border: #ffffff 2px solid;
     border-radius: 15px;
-    width: 600px;
-    height: 300px;
+    width: 40%;
+    height: 40%;
     box-shadow: 5px 5px 10px 1px #000000;
 }
 
 .main-div {
     display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -74,6 +77,7 @@ button:hover {
     background: #333333;
     border: #ffffff 2px solid;
     border-radius: 15px;
-    width: 500px;
-    height: 250px;
+    width: 40%;
+    height: 80%;
+    box-shadow: 5px 5px 10px 1px #000000;
 }
