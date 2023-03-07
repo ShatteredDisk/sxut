@@ -19,7 +19,7 @@
   <h3 align="center">ShareX Uploader Tool</h3>
 
   <p align="center">
-    SXUT (Pronounced SOOT) lets you upload images to SXCU.NET domains without having access to ShareX
+    SXUT (Pronounced SOOT) is a toll that lets you upload images to SXCU.NET domains
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
