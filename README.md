@@ -16,10 +16,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">SXUT</h3>
+  <h3 align="center">ShareX Uploader Tool</h3>
 
   <p align="center">
-    SXUT (Pronounced SOOT) stands for ShareX Uploader Tool and lets you upload images to SXCU.NET domains without having access to ShareX
+    SXUT (Pronounced SOOT) lets you upload images to SXCU.NET domains without having access to ShareX
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
