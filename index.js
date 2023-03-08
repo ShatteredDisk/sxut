@@ -4,21 +4,18 @@ function launch() {
 }
 
 function submit() {
-    const subdomain = document.querySelector('#subdomain').value;
     const token = document.querySelector('#token').value;
     const file = document.querySelector('#file').files[0];
     const title = document.querySelector('#title').value;
     const description = document.querySelector('#description').value;
     const color = document.querySelector('#color').value;
     const site_name = document.querySelector('#site_name').value;
-    document.querySelector('#subdomain').value = '';
     document.querySelector('#token').value = '';
     document.querySelector('#file').value = '';
     document.querySelector('#title').value = '';
     document.querySelector('#description').value = '';
     document.querySelector('#color').value = '';
     document.querySelector('#site_name').value = '';
-    const url = ('https://' + subdomain + '/files/create');
     const json = JSON.stringify({
         title: title,
         description: description,
@@ -32,7 +29,7 @@ function submit() {
     formData.append('file', file);
     formData.append('token', token);
     formData.append('og_properties', og_properties);
-    fetch(url, {
+    fetch('https://sxcu.net/api/files/create', {
         method: 'POST',
         mode: 'no-cors',
         body: formData
