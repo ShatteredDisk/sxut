@@ -13,8 +13,8 @@ body {
     background: #222222;
 }
 
-input[type=text],
-input[type=password] {
+div[id=setup-div] > input[type=text],
+div[id=setup-div] > input[type=password] {
     background: #555555;
     width: 80%;
     height: 15%;
@@ -27,32 +27,56 @@ input[type=password] {
     text-align: center;
 }
 
-input[type=text]:hover,
-input[type=password]:hover,
-input[type=text]:focus,
-input[type=password]:focus {
+div[id=main-div] > input[type=text] {
+    background: #555555;
+    width: 80%;
+    height: 10%;
+    border: #ffffff 1px solid;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 5px 5px 10px 1px #222222;
+    text-align: center;
+}
+
+div[id=setup-div] > input[type=text]:hover,
+div[id=setup-div] > input[type=password]:hover,
+div[id=setup-div] > input[type=text]:focus,
+div[id=setup-div] > input[type=password]:focus,
+div[id=main-div] > input[type=text]:hover,
+div[id=main-div] > input[type=text]:focus {
     background: #777777;
     width: 85%;
 }
 
-input[type="file"] {
+input[type=file],
+input[type=color] {
     display: none;
 }
 
 label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: #555555;
     width: 80%;
-    height: 15%;
+    height: 10%;
     border: #ffffff 1px solid;
     border-radius: 15px;
     font-size: 20px;
     padding-left: 15px;
     padding-right: 15px;
     box-shadow: 5px 5px 10px 1px #222222;
-    text-align: center;
+    cursor: pointer;
 }
 
-button {
+label:hover {
+    background: #777777;
+    width: 85%;
+}
+
+div[id=setup-div] > button {
     background: #555555;
     width: 60%;
     height: 20%;
@@ -63,9 +87,21 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+div[id=setup-div] > button:hover,
+div[id=main-div] > button:hover {
     background: #777777;
     width: 65%;
+}
+
+div[id=main-div] > button {
+    background: #555555;
+    width: 60%;
+    height: 10%;
+    border: #ffffff 1px solid;
+    border-radius: 15px;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px 1px #222222;
+    cursor: pointer;
 }
 
 .setup-div {

@@ -15,8 +15,14 @@
    <button onclick="launch()">Launch</button>
   </div>
   <div id="main-div" class="main-div">
-    <input type="file" name="file" id="file">
-    <label for="file">Custom Upload</label>
+    <input type="file" name="file" id="file" accept=".png,.gif,.jpeg,.ico,.bmp,.tiff,.webm,.webp">
+    <label for="file">Choose File</label>
+    <input type="text" name="title" id="title" placeholder="Title">
+    <input type="text" name="description" id="description" placeholder="Description">
+    <input type="color" name="color" id="color">
+    <label for="color">Choose Color</label>
+    <input type="text" name="site_name" id="site_name" placeholder="Site Name">
+    <button onclick="submit()">Submit</button>
   </div>
 </body>
 </html>
