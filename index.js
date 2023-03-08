@@ -4,5 +4,6 @@ function launch() {
     document.querySelector('#subdomain').value = '';
     document.querySelector('#token').value = '';
     document.querySelector('#setup-div').style.display = 'none';
+    document.query
     document.querySelector('#main-div').style.display = 'flex';
 }
