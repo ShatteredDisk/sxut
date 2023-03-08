@@ -34,6 +34,7 @@ function submit() {
     formData.append('og_properties', og_properties);
     fetch(url, {
         method: 'POST',
+        mode: 'no-cors',
         body: formData
     })
         .then((response) => response.json())
