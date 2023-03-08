@@ -37,8 +37,10 @@ function submit() {
         .then((response) => response.json())
         .then((result) => {
             navigator.clipboard.writeText(result);
+            console.log('Result: ' + result);
         })
         .catch((error) => {
             navigator.clipboard.writeText(error);
+            console.error('Result: ' + error);
         });
 }
