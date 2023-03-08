@@ -16,15 +16,12 @@ function submit() {
     document.querySelector('#description').value = '';
     document.querySelector('#color').value = '';
     document.querySelector('#site_name').value = '';
-    const json = JSON.stringify({
+    const og_properties = JSON.stringify({
         title: title,
         description: description,
         color: color,
         site_name: site_name
     });
-    const og_properties = new Blob([json], {
-        type: 'application/json'
-    })
     var formData = new FormData();
     formData.append('file', file);
     formData.append('token', token);
