@@ -35,11 +35,11 @@ function submit() {
     })
         .then((response) => response.json())
         .then((result) => {
-            navigator.clipboard.writeText(JSON.stringify(result));
+            navigator.clipboard.writeText(result.url);
             console.log('Result: ' + result);
         })
         .catch((error) => {
-            navigator.clipboard.writeText(JSON.stringify(error));
+            navigator.clipboard.writeText(error);
             console.error('Error: ' + error);
         });
 }
