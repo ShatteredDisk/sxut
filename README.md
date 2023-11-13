@@ -28,7 +28,7 @@
 [issues-shield]: https://img.shields.io/github/issues/ShatteredDisk/sxut.svg?style=for-the-badge
 [issues-url]: https://github.com/ShatteredDisk/sxut/issues
 [license-shield]: https://img.shields.io/github/license/ShatteredDisk/sxut.svg?style=for-the-badge
-[license-url]: https://github.com/ShatteredDisk/sxut/blob/master/LICENSE.txt
+[license-url]: https://github.com/ShatteredDisk/sxut/blob/master/LICENSE
 
 WARNING: SXUT is in a VERY early beta. It was published to actively show the process of how it is being created. Expect issues.
 
